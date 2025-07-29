@@ -1,0 +1,8 @@
+--self join outer join
+
+SELECT e.employee_name AS Employee_Name, b.employee_name AS Boss_Name
+FROM boss e
+LEFT JOIN boss b
+  ON e.boss_id = b.employee_id
+ORDER BY e.employee_name  
+;

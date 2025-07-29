@@ -1,0 +1,10 @@
+  -- inner join multiple tables
+
+SELECT product_name, order_total, first_name
+FROM products p
+INNER JOIN customer_orders co
+	ON p.product_id = co.product_id
+INNER JOIN customers c
+	ON co.customer_id = c.customer_id
+ORDER BY 2 DESC
+;

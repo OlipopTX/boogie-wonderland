@@ -1,0 +1,9 @@
+  -- inner join with aggregation
+
+SELECT product_name, SUM(order_total) AS total
+FROM products p
+JOIN customer_orders co
+	ON p.product_id = co.product_id
+GROUP BY product_name
+ORDER BY 2
+;

@@ -1,0 +1,5 @@
+SELECT user_id, AVG(minutes_per_session) AS average_time_spent
+FROM sessions
+WHERE activity = 'gaming'
+GROUP BY user_id
+;
