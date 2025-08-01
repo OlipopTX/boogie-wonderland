@@ -1,0 +1,10 @@
+--RANK
+
+SELECT
+  artist_id,
+  SUM(score) AS total_score,
+  RANK() OVER (ORDER BY SUM(score) DESC) AS artist_rank
+FROM rankings
+GROUP BY artist_id
+ORDER BY artist_rank, artist_id
+;
