@@ -18,7 +18,7 @@ Clone the repository:
 Then open the SQL files with your preferred SQL environment. For Python notebooks (if included), create a virtual environment and install the required packages.
 
 
-The SQL files can be opened and executed in your preferred SQL environment. Python notebooks (if included) can be run in a virtual environment with the necessary de
+ 
 
 ## Usage
 
