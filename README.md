@@ -1,30 +1,29 @@
-# Boogie Wonderland 💃🏽
+# Boogie Wonderland
 
-This repository marks the beginning of my journey into cloud computing, AI, and data analytics — a sandbox where I practice, polish, and share progress as I transition from science education into the tech world.
+This repository contains SQL practice and demonstration queries as part of my learning journey into cloud computing, data analytics, and AI. It serves as a sandbox where I practice, polish, and share progress as I transition from science education into the tech world.
 
-## 🛠️ What's Inside
+## Features
 
-> Coming soon: Sample projects involving:
-- SQL exemplars with JOINs, filters, subqueries, and aggregation
-- Python notebooks for AI/ML experimentation
-- AWS deployment tests and cloud automation workflows
+* SQL exemplars with joins, filters, subqueries, and aggregation
+* Python notebooks for AI and machine learning experimentation
+* AWS deployment tests and cloud automation workflows
 
-## 🧑‍🎓 Purpose
+## Setup
 
-To build a public portfolio that demonstrates my skill acquisition in:
-- SQL & database structure
-- Cloud technologies (AWS)
-- Git/GitHub version control
-- Foundational AI tools
 
-## 🧭 Navigation Notes
+Clone the repository:
 
-Right now this is a holding repo — think of it as the **club getting set up before the crowd arrives**.
-As I complete certifications and projects, I'll update this README and repo with:
-- Proper subfolders per skill
-- Project links
-- Technical documentation
+`git clone https://github.com/OliPopTX/boogie-wonderland.git`
 
-## 🌐 Connect
+Then open the SQL files with your preferred SQL environment. For Python notebooks (if included), create a virtual environment and install the required packages.
 
-You can learn more about my journey on [LinkedIn](https://www.linkedin.com/in/your-profile/). Feedback, collaborations, and dance moves welcome.
+
+The SQL files can be opened and executed in your preferred SQL environment. Python notebooks (if included) can be run in a virtual environment with the necessary de
+
+## Usage
+
+Browse the `sql-practice` directory and the root-level `.sql` files to explore different query patterns. Feel free to adapt and extend the examples for your own learning.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
